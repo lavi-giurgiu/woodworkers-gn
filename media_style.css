@@ -1,0 +1,296 @@
+@media screen and (max-width: 1280px) {
+  .blockquote-div {
+    margin-right: 30px;
+  }
+
+  .sec2 {
+    padding: 50px 0 100px;
+  }
+
+  .sec2>div {
+    margin-bottom: 50px;
+  }
+
+  .sec3-layout {
+    padding: 60px 0;
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+
+  header {
+    height: 60px;
+  }
+
+  .link-color-logo {
+    letter-spacing: 1.875px;
+  }
+
+  .link-color-logo, .sec3 p {
+    font-size: 13px;
+  }
+
+  header>a, header nav {
+    padding: 20px 20px 0;
+  }
+
+  nav .popping-links {
+    padding-right: 30px;
+    font-size: 12px;
+  }
+
+  nav .big-list {
+    width: 250px;
+  }
+
+  .menu-panel {
+    width: 400px;
+  }
+
+  .menu-panel .menu-panel-head {
+    padding: 20px 0;
+  }
+
+  .menu-panel>div, .blockquote-div, .sec2, .sec3-layout, footer {
+    margin: 0 20px;
+  }
+
+  .sec1, .show-philosophy .img-suggest {
+    height: 70vh;
+  }
+
+  .blockquote-div {
+    left: 0;
+    bottom: 20px;
+    /* margin: 0 20px; */
+  }
+
+  .arrow-down {
+    display: none;
+  }
+
+  .sec2 {
+    padding: 40px 0 80px;
+    /* margin: 0 20px; */
+  }
+
+  .sec2>div {
+    margin-bottom: 40px;
+  }
+
+  .sec2-paragraph p {
+    font-size: 16px;
+  }
+
+  footer {
+    width: auto;
+    line-height: 30px;
+  }
+
+  footer>ul:first-child {
+    margin-bottom: 0;
+    text-transform: none;
+  }
+
+  footer>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer>ul>li {
+    width: auto;
+    white-space: normal;
+  }
+
+  footer>ul:first-child li:first-child, footer .last-text {
+    order: 2;
+  }
+
+  footer>ul:first-child li:first-child, footer>ul:first-child li:last-child {
+    font-family: 'Gelasio';
+    font-size: 12.5px;
+    letter-spacing: unset;
+  }
+
+  footer>ul>li:nth-child(2) {
+    order: 1;
+    letter-spacing: unset;
+  }
+
+  footer>ul:first-child li:last-child {
+    order: 3;
+  }
+
+  #logo-footer {
+    display: none;
+  }
+
+  footer .last-text {
+    font-size: 9.75px;
+    letter-spacing: 1.6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 40px;
+  }
+
+  header>a, header nav {
+    padding: 10px 15px 0;
+  }
+
+  .link-color-logo {
+    letter-spacing: 2.1px;
+  }
+
+  .link-color-logo, .sec3-layout .all-styles>a {
+    font-size: 9px;
+  }
+
+  header a.logo, nav .popping-links {
+    display: none;
+  }
+
+  .menu-panel, .sec2-paragraph:last-child .second-col a {
+    width: 100%;
+  }
+
+  .menu-panel .menu-panel-head {
+    padding: 10px 0;
+  }
+
+  .menu-panel>div, .blockquote-div, .sec2, .sec3-layout, footer {
+    margin: 0 15px;
+  }
+
+  .menu-panel .menu-panel-head>a {
+    width: 18%;
+  }
+
+  .menu-panel .menu-panel-head>* {
+    margin-right: 10px;
+  }
+
+  .menu-panel .menu-panel-head>form>input {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+  }
+
+  .menu-panel .menu-panel-main>ul>li {
+    margin-bottom: 15px;
+  }
+
+  .menu-panel-main>ul>li .list-tab>li .link-mark {
+    font-weight: unset;
+  }
+
+  .menu-panel .menu-panel-footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .sec1 blockquote>p {
+    font-size: calc(1.7857142857vw + 9.5px);
+    line-height: calc(1.7857142857vw + 18.2857142857px);
+    letter-spacing: .45px;
+  }
+
+  .sec2 {
+    padding: 50px 0 40px;
+  }
+
+  .sec2>div {
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+
+  .sec2 .sec2-header .second-col, .sec2 .sec2-paragraph:last-child .second-col {
+    padding-right: calc( 4.615% / 2);
+    padding-left: 0;
+    order: 1;
+  }
+
+  .sec2 .sec2-header .first-col, .sec2 .sec2-paragraph:last-child .first-col {
+    padding-right: 0;
+    padding-left: calc( 4.615% / 2);
+    order: 2;
+    text-align: left;
+  }
+
+  .sec2 .sec2-header p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  cite {
+    font-size: 13px;
+    line-height: 26px;
+  }
+
+  .sec2 h2, .sec3 h2 {
+    font-size: 11.5px;
+    letter-spacing: 3px;
+  }
+
+  .sec2-paragraph p {
+    margin: 1em 0;
+    font-size: 13px;
+    letter-spacing: -.4px;
+  }
+
+  .more {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .sec3-layout {
+    padding: 30px 0;
+  }
+
+  .sec3 p {
+    margin: 0 auto;
+  }
+
+  .sec3-layout .all-styles {
+    margin-top: 20px;
+  }
+
+  footer {
+    padding: 1em 0;
+  }
+}
+
+@media screen and (max-width: 629px) {
+
+  .sec2>div:not(#break-line) {
+    margin-bottom: 0;
+  }
+
+  .sec2>div>div {
+    width: auto;
+  }
+
+  .sec2 .second-col, .sec2 .first-col {
+    padding: 0 !important;
+    margin-bottom: 20px;
+  }
+
+  footer .last-text {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  footer .float-div {
+    width: 180px;
+  }
+
+}
